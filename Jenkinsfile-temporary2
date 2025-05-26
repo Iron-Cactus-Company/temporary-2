@@ -1,0 +1,10 @@
+pipeline {
+  agent any
+  stages {
+    stage('Hoi'){
+      steps {
+        echo 'Hoi from another Jenkinsfile'
+      }
+    }
+  }
+}
