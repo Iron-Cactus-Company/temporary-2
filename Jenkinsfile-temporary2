@@ -1,7 +1,7 @@
 pipeline {
-  agent {'nodejs-agent'}
+  agent { label 'nodejs-agent' }
   stages {
-    stage('Hoi'){
+    stage('Hoi') {
       steps {
         echo 'Hoi from another Jenkinsfile'
       }
